@@ -10,7 +10,7 @@ let cors = require('cors');
 const errorMiddleware = require("./middlewares/error-middleware");
 
 const corsOptions = {
-    origin:"http://localhost:3000",
+    origin:"https://frontend-three-rho-94.vercel.app/",
     methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials:true,
 };
